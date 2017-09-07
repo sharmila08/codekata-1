@@ -11,7 +11,8 @@ else
 {
 for(i=2;i<=p;i++)
 {
-a=a*a};
+a=a*a;
+}
 }
 printf("the value is%d",a);
 }
