@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int num,a[1000],i,t,j;
+    int num,a[10000],i,t,j;
     printf("enter total numbers");
     scanf("%d",&num);
     for(i=0;i<num;i++)
