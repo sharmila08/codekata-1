@@ -2,20 +2,16 @@
 
 int main(void) {
 	char a[1000],a1[1000];
-	int count=0,i;
+	int i,j;
 	printf("enter the string ");
-	scanf("%[^\n]s",a);
-	printf("enter the string ");
-	scanf("%[^\n]s",a1);
-	for(i=0;a[i]!='\0';i++)
-	{count=0;
-		whlile(a[i]!=' '){
-		if(a[i]>='a'&&a[i]<='z'||a[i]>='A'&&a[i]<='Z');
-		count++;
-	}
-	b[j]=count;
-	}
-	printf("%d",count);
+	scanf("%s%s",a,a1);
+	i=strlen(a);
+	j=strlen(a1);
+	if(i>=j)
+	printf("%s",a);
+	else
+	printf("%s",a1);
 	
 	return 0;
 }
+
