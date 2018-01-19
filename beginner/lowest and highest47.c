@@ -18,6 +18,6 @@ int main(void) {
 			
 		}
 	}
-	printf("%d\t%d",a[0],a[lim-1]);
+	printf("%d\t%d",a[lim-1],a[0]);
 	return 0;
 }
