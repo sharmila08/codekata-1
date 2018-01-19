@@ -7,7 +7,7 @@ int main(void) {
 	scanf("%[^\n]s",a);
 	for(i=0;a[i]!='\0';i++)
 	{
-		if(a[i]>='a'&&a[i]<='z'||a[i]>='0'&&a[i]<='9'||a[i]>='A'&&a[i]<='Z');
+		if(a[i]>='a'&&a[i]<='z'||a[i]>='A'&&a[i]<='Z');
 		else
 		count++;
 	}
